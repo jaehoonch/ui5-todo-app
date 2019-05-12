@@ -3,7 +3,9 @@
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<mvc:XMLView viewName="todoappui5-todo-app.view.Todo"/>         
+				</content>
 			</Page>
 		</pages>
 	</App>
